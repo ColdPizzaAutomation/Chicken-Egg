@@ -1,0 +1,9 @@
+<script> 
+function chicken() { 
+  return egg(); 
+}
+function egg() { 
+  return chicken(); 
+}
+console.log("The", chicken(), "came first!");
+</script>
